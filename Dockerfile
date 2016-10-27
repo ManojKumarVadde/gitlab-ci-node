@@ -9,7 +9,8 @@ ENV DISPLAY :99
 
 # Install built-in packages
 RUN apt-get update --fix-missing
-RUN apt-get install -y bash curl git libpng12-0 libelf-dev openjdk-7-jre-headless xvfb chromium libgl1-mesa-swrast
+RUN apt-get install -y bash curl git libpng12-0 libelf-dev \
+  openjdk-7-jre-headless xvfb chromium libgl1-mesa-swrast
 RUN apt-get clean
 
 # Simulate Chrome
