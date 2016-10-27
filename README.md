@@ -1,4 +1,4 @@
-This Dockerfile aims to provide the following components using the least possible space I could manage (662 MB):
+This Dockerfile aims to provide the following components using the least possible space I could manage (625 MB):
 
   1. Git.
   2. NVM & Node.js 6.9.1 LTS.
